@@ -1,6 +1,10 @@
 export type Character = {
-    _id: number;
-    name: string;
-    imageUrl: string;
-    films: string;
+    index: number;
+    fullName: string;
+    nickname: string;
+    image: string;
+    birthdate: string;
+    hogwartsHouse: string;
+    interpretedBy: string;
+    children: string [];
 }

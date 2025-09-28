@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 80vw;
+    margin: auto;
+    border: 5px #10162F solid;
+    /*border: 5px #2C2C2C solid;*/
+}
+
+@media only screen and (max-width: 1000px){
+    div{
+        width: 90vw;
+    }
+}
